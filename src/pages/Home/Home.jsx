@@ -11,6 +11,7 @@ const Home = () => {
                 <div className='flex flex-col'>
                     <button onClick={() => navigate('/result')} className='border border-black rounded-md px-2 py-1 mx-2 my-3 hover:scale-95'>Show Result</button>
                     <button onClick={() => navigate('/players')} className='border border-black rounded-md px-2 py-1 mx-2 my-3 hover:scale-95'>Show Players</button>
+                    <button onClick={() => navigate('/')} className='border border-black rounded-md px-2 py-1 mx-2 my-3 hover:scale-95'>Show nothing</button>
                 </div>
             </div>
             <div className='grow flex flex-col p-3 h-full'>
